@@ -1,6 +1,10 @@
 # Data-Science-Project-Olist-Marketing-and-E-commerce
 Using the Brazilian Olist Marketing and E-commerce dataset, sales trends were analysed and revenue was evaluated for 2016, 2017 and 2018. Data was also explored to suggest marketing strategies for subsequent increase in future sales and revenue. 
 
+## Data Preparation
+- Data is clenaed by removing rows with null values.
+- Grouped rows and columns from different data frames having a common variable.
+
 ## Data Visualisation and Analysis
 - Box plots were used to analyse payment values to discern the average order amount. The box plots represented the median, quartiles (25th and 75th) and the outliers. An instance is shown below:
 ![image](https://user-images.githubusercontent.com/77065857/185730230-c100e2b0-5461-49eb-85c7-946ee0f9651e.png) 
@@ -10,11 +14,6 @@ Using the Brazilian Olist Marketing and E-commerce dataset, sales trends were an
 - Weekly sales analysis surprisingly showed lesser sales during the weekend.
 - Hourly sales analysis shows high sales from 9 am to 11 pm. Working hours in Brazil are roughly between 8 am to 6 pm.
 - Positive correlation was observed between the number of photos available for a product and its sales especially in categories like female fashion.
-
-
-## Data Preparation
-- Data is clenaed by removing rows with null values.
-- Grouped rows and columns from different data frames having a common variable.
 
 ## Machine Learning
 - The aim is to predict future revenue by analysing past revenue. 
@@ -36,7 +35,19 @@ Using the Brazilian Olist Marketing and E-commerce dataset, sales trends were an
 - We used the elbow method to find the ideal number of clusters for segmentation. It groups the customers on the basis of their previous purchase transactions i.e., how recently, how often, and how much did a customer buy. RFM filters customers into various groups for the purpose of better service. A higher score is better. A score of 444 shows that the customer is loyal and is the best score.
 
 ![image](https://user-images.githubusercontent.com/77065857/185730641-59ad126f-0fae-4ff6-ba2b-393d336a3307.png)
-This plot gives us a clear understanding of the count of customers in each category.The arrow points towards 444 which consists of the most loyal customers.
+ This plot gives us a clear understanding of the count of customers in each category.The arrow points towards 444 which consists of the most loyal customers.
+ 
+ ## Project Outcome
+ - We were able to segment customers based on their activity through calculated RFM value.
+ - We identified loyal customers (with the highest rfm value). They can be provided special offers. 
+ - We also discoverd passive customers. They can be sent promotionional mails, vouchers and discount offers to encourage them for more often purchases
+ - We had expected that maximum orders would come during the weekends when people are at home.Surprisingly weekends recorded minimum sales. 
 
+The above findings can be utilised to devise appropriate marketing strategies to increase the sales of the company. 
 
-
+## Data-driven Insights
+- The company should ramp up their marketing efforts as some of their product categories have very little to no sales. 
+- Low sales were recorded during weekends when people are typically at home. It is possible to reach out to the Brazilian population through the country's numerous TV channels. Mostly everyone watches television, especially sport events where their country takes part. 
+- High sales were seen in Novemeber perhaps due to Christmas shopping
+- We discovered lower sales in february during the carnival in Brazil. This is a festive and celebration time. The company should cater to the things that people would prefer purchasing like handicrafts, traditional folk costumes and more.
+- More photos should be provided for products as people prefer seeing the image before making a purchase. 

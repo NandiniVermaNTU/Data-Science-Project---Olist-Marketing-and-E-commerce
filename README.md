@@ -35,7 +35,8 @@ Using the Brazilian Olist Marketing and E-commerce dataset, sales trends were an
 - We used the elbow method to find the ideal number of clusters for segmentation. It groups the customers on the basis of their previous purchase transactions i.e., how recently, how often, and how much did a customer buy. RFM filters customers into various groups for the purpose of better service. A higher score is better. A score of 444 shows that the customer is loyal and is the best score.
 
 ![image](https://user-images.githubusercontent.com/77065857/185730641-59ad126f-0fae-4ff6-ba2b-393d336a3307.png)
- This plot gives us a clear understanding of the count of customers in each category.The arrow points towards 444 which consists of the most loyal customers.
+
+This plot gives us a clear understanding of the count of customers in each category.The arrow points towards 444 which consists of the most loyal customers.
  
  ## Project Outcome
  - We were able to segment customers based on their activity through calculated RFM value.
